@@ -16,6 +16,8 @@ body {
 
 .topnav {
 	overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .content {
@@ -43,4 +45,74 @@ body {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.category {
+  font-weight: bold;
+}
+
+.text_content {
+  font-size: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.skill_tiles {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 205px;
+  height: 60px;
+}
+
+.skill_tiles:hover {
+  background-color: #FFFFFF;
+  color: #000;
+}
+
+.row2 {
+  display: flex;
+  margin-top: -50%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column2 {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.bighoon {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 25px;
+}
+
+.no-dec {
+  text-decoration: none;
+  color: white;
 }

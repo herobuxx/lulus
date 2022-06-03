@@ -1,8 +1,8 @@
 <head>
 	<title>Kelulusan | SMKN 1 Bukittinggi</title>
 	<link rel="stylesheet" href="css/main.css" />
-	    <!-- Icon Lib -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -20,8 +20,9 @@
         <form>
             <input type="text" name="nisn">
         </form>
-        <input type="button" value="Lihat detail" onclick="play()">
+        <input type="button" value="Lihat detail" onclick="play(), palee()">
         <audio id="audio" src="pale.m4a"></audio>
+        <h4 id="pale"></h4>
 			</center>
 		</div>
 	</div>
@@ -43,6 +44,11 @@
         audio.play();
       }
     </script>
+<script>
+  function palee() {
+    document.getElementById("pale").innerHTML = "Tapi boong :P";
+}
+</script>
 </body>
 </html>
 

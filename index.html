@@ -14,22 +14,32 @@
 		<div class="content">
 			<center>
 				<h1><span class="Animated"></span></h1>
+        <h3>Selamat, Kamu Lulus!</h3>
+        <p>Tap disini untuk melihat lebih detail</p>
+        <input type="button" value="Lihat detail" onclick="play()">
+        <audio id="audio" src="pale.m4a"></audio>
 			</center>
 		</div>
 	</div>
-	<script src="js/typed.js"></script>
-	<script>
+<script src="js/typed.js"></script>
+<script>
         var typed = new Typed('.Animated', {
             strings: [
                 "Pengumuman Kelulusan",
                 "SMKN 1 Bukittinggi",
-                "Selamat, Kamu Lulus!",
-                "Semoga ananda sukses dimasa depannya.",
-                "Tapi boong hayyuk. papale palpale",
             ],
             typeSpeed: 70,
             backSpeed: 5,
             loop: false
         });
+</script>
+<script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
     </script>
 </body>
+</html>
+
+
